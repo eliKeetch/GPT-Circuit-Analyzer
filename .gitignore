@@ -1,0 +1,5 @@
+**/node_modules/
+**/.mcp.json
+*.zip
+*.log
+.DS_Store

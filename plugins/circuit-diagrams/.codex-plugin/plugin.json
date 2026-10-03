@@ -1,0 +1,26 @@
+{
+  "name": "circuit-diagrams",
+  "version": "0.1.0+codex.20261003031842",
+  "description": "Draw, redraw, and analyze basic DC circuit diagrams.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Circuit Diagrams",
+    "shortDescription": "Draw and analyze basic circuits.",
+    "longDescription": "Create schematics, redraw uploaded diagrams, check connections, and solve linear DC circuits with node-voltage or loop-current analysis.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Draw a circuit from my description.",
+      "Redraw this circuit image and find the node voltages.",
+      "Use mesh currents to analyze this circuit."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

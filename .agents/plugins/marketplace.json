@@ -1,0 +1,20 @@
+{
+  "name": "circuit-diagrams-share",
+  "interface": {
+    "displayName": "Circuit Diagrams"
+  },
+  "plugins": [
+    {
+      "name": "circuit-diagrams",
+      "source": {
+        "source": "local",
+        "path": "./plugins/circuit-diagrams"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

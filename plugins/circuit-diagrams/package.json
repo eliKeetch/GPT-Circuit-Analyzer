@@ -1,0 +1,15 @@
+{
+  "name": "circuit-diagrams-plugin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "sharp": "^0.35.5",
+    "zod": "^3.25.0"
+  }
+}
